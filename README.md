@@ -1,11 +1,11 @@
 # Grocery-Store
 
-FOODSAVIOURAPP | Android App Nov’18 | Minor Project
-• Python,Android,Firebase,DialogFlow(Chatbot)
-• CreatedanapplicationinAndroidthatautomaticallycreatesdiscountson productwhichareabouttoexpire.
-• WebCrawler–extractingdataandimagesfromwebpagesusingBeautifulSoup andHTML5Lib.
-• DialogFlow-CustomerServiceChatbotusingNaturalLanguage Processing(NLP)
-• Tensor?owLite-recognizingtextfromphonecapturedimages
+FOOD SAVIOUR APP | Android App Novâ€™18 | Minor Project
+â€¢ Python,Android,Firebase,DialogFlow(Chatbot)
+â€¢ Created an application in Android that automatically creates discounts on product which are about to expire.
+â€¢ WebCrawler â€“ extracting data and images from web-pages using BeautifulSoup and HTML5Lib.
+â€¢ DialogFlow - Customer Service Chatbot using Natural Language Processing ( NLP ).
+â€¢ TensorflowLite - recognizing text from phone captured images
 
 
 emailid - "mp5.raka@gmail.com"

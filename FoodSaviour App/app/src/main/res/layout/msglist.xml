@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/avatar"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:background="@drawable/circle"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/ChatBot_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textColor="#2f4f4f"
+        android:text="Bot"/>
+
+    <TextView
+        android:id="@+id/leftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ChatBot_name"
+        android:layout_alignLeft="@+id/ChatBot_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="40dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/left_background"
+        android:elevation="2dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Hello this is me!!"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/avatar1"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerInside"
+        android:background="@drawable/circle1"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/ChatUser_name"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/avatar1"
+        android:layout_alignTop="@+id/avatar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:textColor="#2f4f4f"
+        android:text="User"/>
+
+    <TextView
+        android:id="@+id/rightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="42dp"
+        android:layout_alignParentEnd="true"
+        android:text="Hi!! How are you!!"
+        android:background="@drawable/right_background"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="18dp"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

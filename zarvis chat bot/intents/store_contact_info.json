@@ -1,0 +1,50 @@
+{
+  "id": "fc62deda-fdd7-47f2-9019-56ddaca6c084",
+  "name": "store_contact_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "store_contact_info",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c1559c66-f2bc-4985-b8b1-66bd96d5c837",
+          "required": true,
+          "dataType": "@storename",
+          "name": "storename",
+          "value": "$storename",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "can you tell the name of the store ?"
+            },
+            {
+              "lang": "en",
+              "value": "what is the name of the store ?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1538759687,
+  "fallbackIntent": false,
+  "events": []
+}

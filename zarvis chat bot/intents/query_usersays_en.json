@@ -1,0 +1,465 @@
+[
+  {
+    "id": "293e02e2-fa9f-4d36-96e3-7be504501f84",
+    "data": [
+      {
+        "text": "my contact number is ",
+        "userDefined": false
+      },
+      {
+        "text": "9997247164",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542548688
+  },
+  {
+    "id": "bdae4267-f6f3-4a0d-81f5-32836e310da3",
+    "data": [
+      {
+        "text": "i want to submit a query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542548688
+  },
+  {
+    "id": "98bdca8f-d5af-4646-93f0-27dfa71f8a9c",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "username",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " and my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "8006018185",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      },
+      {
+        "text": " and email id is ",
+        "userDefined": false
+      },
+      {
+        "text": "email@gamil.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538676142
+  },
+  {
+    "id": "57f5eb93-b37a-434a-894d-b673c04da71c",
+    "data": [
+      {
+        "text": "i have a problem with the order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "24c2134c-1004-4b35-8322-54519582a184",
+    "data": [
+      {
+        "text": "i would like to return the item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "c1206a1e-ab55-4f7f-9d6d-17dd2580f54c",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "emailid@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538661378
+  },
+  {
+    "id": "770dd7e9-2451-455c-8ef2-9f69ff8b12ad",
+    "data": [
+      {
+        "text": "i would like to give a feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1538660211
+  },
+  {
+    "id": "c8569d82-ffe4-436b-9b34-44103d1b23d5",
+    "data": [
+      {
+        "text": "how can i give my feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "03206a4c-b36f-405b-bc92-b4e9cb0cbbe5",
+    "data": [
+      {
+        "text": "i have a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "202014be-d1a8-4b2a-bb0d-62b5ebe3c8f1",
+    "data": [
+      {
+        "text": "my order is late",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "424044a9-af38-4578-b158-54808f951650",
+    "data": [
+      {
+        "text": "you can call me on ",
+        "userDefined": false
+      },
+      {
+        "text": "8006018185",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538676142
+  },
+  {
+    "id": "d39c67a5-200a-4f76-95b6-0adc3856255a",
+    "data": [
+      {
+        "text": "contact is ",
+        "userDefined": false
+      },
+      {
+        "text": "8006018185",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538676142
+  },
+  {
+    "id": "89f8cfae-173d-4ae4-a93c-9a9760ffdf5f",
+    "data": [
+      {
+        "text": "my mail is ",
+        "userDefined": false
+      },
+      {
+        "text": "mail@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538661378
+  },
+  {
+    "id": "5b45dba1-2181-4dc4-9ca2-b15a5215bf0f",
+    "data": [
+      {
+        "text": "email@yahoo.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538666277
+  },
+  {
+    "id": "62f9b24a-c81a-4cc4-8093-0aa572bb29c1",
+    "data": [
+      {
+        "text": "i want to return the item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538661378
+  },
+  {
+    "id": "1a96a2b1-7a27-46ba-986b-47810c0671da",
+    "data": [
+      {
+        "text": "query is ",
+        "userDefined": false
+      },
+      {
+        "text": "bla bla bla",
+        "alias": "query",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538673271
+  },
+  {
+    "id": "81c46d23-2377-457c-baf3-abbdfd978032",
+    "data": [
+      {
+        "text": "my contact number is ",
+        "userDefined": false
+      },
+      {
+        "text": "8006018185",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538676142
+  },
+  {
+    "id": "313aed3d-724d-4f5c-8d22-69fea63e02dc",
+    "data": [
+      {
+        "text": "my phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "8006018185",
+        "alias": "number",
+        "meta": "@sys.phone-number",
+        "userDefined": true
+      },
+      {
+        "text": " and email id is ",
+        "userDefined": false
+      },
+      {
+        "text": "email@gamil.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538676142
+  },
+  {
+    "id": "f2f29d65-20b0-4698-ab1b-679ddc4bd89b",
+    "data": [
+      {
+        "text": "items is missing from my order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "ff765f6e-d587-492b-815e-da6a3c031d4a",
+    "data": [
+      {
+        "text": "can i you to solve my problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "d069aa3c-37b8-4e63-a785-ee7d09476970",
+    "data": [
+      {
+        "text": "i have a query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538661378
+  },
+  {
+    "id": "b9bd5116-e854-4b65-ac8b-f4454318fb93",
+    "data": [
+      {
+        "text": "items is missing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "4362d738-849f-4849-aebc-8e07b3bd52f0",
+    "data": [
+      {
+        "text": "kartik tyagi",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538664764
+  },
+  {
+    "id": "546ebeb8-cd65-40db-88e3-cf8a244f2910",
+    "data": [
+      {
+        "text": "mail id is ",
+        "userDefined": false
+      },
+      {
+        "text": "mail@yahoo.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538661378
+  },
+  {
+    "id": "cd5f4f44-452a-4b03-a037-49acf11b47a3",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "kartik sharma",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538664764
+  },
+  {
+    "id": "8a999d9a-e256-4821-818c-1e3296e2cd93",
+    "data": [
+      {
+        "text": "can i give you feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "bd35b9b6-dd71-45f1-944a-7f4cffb09811",
+    "data": [
+      {
+        "text": "username lastname",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538666277
+  },
+  {
+    "id": "95bc40c1-9418-4df2-9dc1-ffef5d68d847",
+    "data": [
+      {
+        "text": "can i give you feedback here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  },
+  {
+    "id": "a60e7646-ae73-43cf-a73a-8b673dc21c48",
+    "data": [
+      {
+        "text": "my username is ",
+        "userDefined": false
+      },
+      {
+        "text": "aman goyal",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538666277
+  },
+  {
+    "id": "3afb542d-2b43-43a7-b004-5392821ff64c",
+    "data": [
+      {
+        "text": "i have a problem here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538660211
+  }
+]

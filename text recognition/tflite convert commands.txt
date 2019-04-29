@@ -1,0 +1,21 @@
+python scripts/main.py --train\
+--output_graph=tf_files/retrained_graph.pb \
+--output_labels=tf_files/retrained_labels.txt \
+--image_dir=tf_files/flower_photos \
+--architecture=mobilenet_1.0_224  \
+--summaries_dir tf_files/training_summaries/mobilenet_1.0_244
+
+
+tensorboard --logdir=tf_files/training_summaries/mobilenet_1.0_244
+
+
+IMAGE_SIZE=512
+toco \
+  --graph_def_file=tf_files/retrained_graph.pb \
+  --output_file=tf_files/optimized_graph.lite \
+  --output_format=TFLITE \
+  --input_shape=1,${IMAGE_SIZE},${IMAGE_SIZE},3 \
+  --input_array=input \
+  --output_array=final_result \
+  --inference_type=FLOAT \
+  --inference_input_type=FLOAT

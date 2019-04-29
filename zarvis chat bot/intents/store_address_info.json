@@ -1,0 +1,46 @@
+{
+  "id": "69396ddb-b227-4fbe-80fc-373a12f4cf6d",
+  "name": "store_address_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "store_address_info",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "552e45fd-1840-473c-af39-a98d30a29cf9",
+          "required": true,
+          "dataType": "@storename",
+          "name": "storename",
+          "value": "$storename",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what is the store name?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1542544982,
+  "fallbackIntent": false,
+  "events": []
+}

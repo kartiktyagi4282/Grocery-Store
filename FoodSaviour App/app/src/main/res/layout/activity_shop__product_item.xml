@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:background="#42413D">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        app:cardBackgroundColor="#AEE0C5"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="155dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+        <FrameLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/spName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="165dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:hint="Name"
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/spExp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="165dp"
+                    android:hint="Expiry Date"
+                    android:padding="2dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/spDisPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="165dp"
+                    android:hint="Discounted Price"
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:typeface="monospace" />
+
+
+                <TextView
+                    android:id="@+id/spPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="165dp"
+                    android:hint="Price"
+                    android:padding="@dimen/cardview_compat_inset_shadow"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:typeface="monospace" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="165dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btnplus"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:padding="@dimen/cardview_compat_inset_shadow"
+                        android:text="+"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/QtyText"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cardview_compat_inset_shadow"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:typeface="monospace" />
+                    <Button
+                        android:id="@+id/btnminus"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:text="-"
+                        android:padding="@dimen/cardview_compat_inset_shadow"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:typeface="monospace" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

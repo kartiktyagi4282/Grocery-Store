@@ -1,0 +1,228 @@
+[
+  {
+    "id": "e09c9b59-ed71-45da-b46d-76dba81a275d",
+    "data": [
+      {
+        "text": "where is the ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": "  ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542544982
+  },
+  {
+    "id": "5097e9ca-4104-4f7e-af67-476477bb7ae6",
+    "data": [
+      {
+        "text": "where ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " is located ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "e048e522-7308-4966-877d-a494d54dee62",
+    "data": [
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538683311
+  },
+  {
+    "id": "1a948a7f-5af6-4de1-b056-5b743d1a423f",
+    "data": [
+      {
+        "text": "what is address of ",
+        "userDefined": false
+      },
+      {
+        "text": "danish provision store",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": "  ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "ca7080dd-f1b7-442f-aeea-ec26eb269f74",
+    "data": [
+      {
+        "text": "where can i find ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "03a166e5-1e16-48e2-bcd1-177ff395899e",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542544982
+  },
+  {
+    "id": "c720a2de-dfa6-4d03-903e-dc5b19cc037a",
+    "data": [
+      {
+        "text": "where can i find ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "e7670656-b52a-4a8d-9146-cea35958460b",
+    "data": [
+      {
+        "text": "where does ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " is located?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "fc2dca8a-3fe1-492b-89c1-c3c080a1ca77",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "44a2f5ec-050e-4223-8e99-c6832610c91f",
+    "data": [
+      {
+        "text": "where is ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  },
+  {
+    "id": "e4b71d51-c0a8-4227-b92d-91e22b6cb982",
+    "data": [
+      {
+        "text": "what is address of  ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538677367
+  }
+]

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42413d"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:src="@drawable/dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="177dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/getName"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="#aee0c5"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:shadowColor="@android:color/holo_green_light"
+        android:singleLine="true"
+        android:textColorHighlight="@android:color/holo_green_light"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getAddr"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="#aee0c5"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:shadowColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/getMail"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="#aee0c5"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:shadowColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getPass"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:background="#aee0c5"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:shadowColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveData"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#4f9902"
+            android:text="SAVE"
+            android:textColor="#000000"
+            android:textColorLink="@android:color/holo_green_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#4f9902"
+            android:text="HELP"
+            android:textColor="#000000"
+            android:textColorLink="@android:color/holo_green_light"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#42413d"-->
+    <!--tools:context=".AccountDetailsFragment"-->
+    <!--tools:layout_editor_absoluteY="81dp">-->
+
+    <!--&lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+    <!--<EditText-->
+        <!--android:id="@+id/getName"-->
+        <!--android:layout_width="333dp"-->
+        <!--android:layout_height="36dp"-->
+        <!--android:layout_marginBottom="17dp"-->
+        <!--android:layout_marginEnd="26dp"-->
+        <!--android:layout_marginLeft="25dp"-->
+        <!--android:layout_marginRight="26dp"-->
+        <!--android:layout_marginStart="25dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Name"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:selectAllOnFocus="true"-->
+        <!--android:shadowColor="@android:color/holo_green_light"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColorHighlight="@android:color/holo_green_light"-->
+        <!--android:textColorHint="@android:color/background_dark"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/getAddr"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/getAddr"-->
+        <!--android:layout_width="333dp"-->
+        <!--android:layout_height="43dp"-->
+
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_marginEnd="25dp"-->
+        <!--android:layout_marginLeft="26dp"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_marginStart="26dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Address"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:shadowColor="@android:color/holo_green_light"-->
+        <!--android:textColorHint="@android:color/background_dark"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/getPass"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:ignore="MissingConstraints" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/getMail"-->
+        <!--android:layout_width="333dp"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_marginBottom="32dp"-->
+        <!--android:layout_marginEnd="25dp"-->
+        <!--android:layout_marginLeft="26dp"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_marginStart="26dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Email"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:shadowColor="@android:color/holo_green_light"-->
+        <!--android:textColorHint="@android:color/background_dark"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/saveData"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/getPass"-->
+        <!--android:layout_width="333dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="25dp"-->
+        <!--android:layout_marginLeft="26dp"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_marginStart="26dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Password"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:shadowColor="@android:color/holo_green_light"-->
+        <!--android:textColorHint="@android:color/background_dark"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/getMail"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--tools:ignore="MissingConstraints" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/saveData"-->
+        <!--android:layout_width="175dp"-->
+        <!--android:layout_height="49dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="26dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginRight="26dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:text="SAVE"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/button2"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="151dp"-->
+        <!--android:layout_height="46dp"-->
+
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginLeft="26dp"-->
+        <!--android:layout_marginRight="16dp"-->
+        <!--android:layout_marginStart="26dp"-->
+        <!--android:layout_marginTop="33dp"-->
+        <!--android:background="#aee0c5"-->
+        <!--android:text="HELP"-->
+        <!--android:textColorLink="@android:color/holo_green_light"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/saveData"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/getMail" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_width="177dp"-->
+        <!--android:layout_height="141dp"-->
+        <!--android:layout_marginEnd="103dp"-->
+        <!--android:layout_marginLeft="104dp"-->
+        <!--android:layout_marginRight="103dp"-->
+        <!--android:layout_marginStart="104dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@drawable/dp" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->

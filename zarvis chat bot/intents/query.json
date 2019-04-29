@@ -1,0 +1,110 @@
+{
+  "id": "2e26cf97-2bb9-4eb9-b1fe-b65de8f63672",
+  "name": "query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "query",
+      "affectedContexts": [
+        {
+          "name": "query-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "OK",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "iam",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "583f7b38-710f-4337-a5e2-459eb45280e8",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$emailid",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "tell me your email id"
+            },
+            {
+              "lang": "en",
+              "value": "what\u0027s your email id ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "669b645d-ec9a-466f-a0f2-010dada65f99",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "tell me your phone number"
+            },
+            {
+              "lang": "en",
+              "value": "what is your contact"
+            },
+            {
+              "lang": "en",
+              "value": "can our support team contact you"
+            },
+            {
+              "lang": "en",
+              "value": "how can we contact you"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "7a17577e-aa3a-42bd-b2ef-f187b9c50716",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "query",
+          "value": "$query",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "now describe yout query"
+            },
+            {
+              "lang": "en",
+              "value": "what is your query?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1542549740,
+  "fallbackIntent": false,
+  "events": []
+}

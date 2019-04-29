@@ -1,0 +1,44 @@
+[
+  {
+    "value": "aman goyal",
+    "synonyms": [
+      "aman goyal"
+    ]
+  },
+  {
+    "value": "@sys.last-name:last-name ",
+    "synonyms": [
+      "@sys.last-name:last-name "
+    ]
+  },
+  {
+    "value": "name",
+    "synonyms": [
+      "name"
+    ]
+  },
+  {
+    "value": "@sys.given-name:username",
+    "synonyms": [
+      "@sys.given-name:username"
+    ]
+  },
+  {
+    "value": "kartik tyagi",
+    "synonyms": [
+      "kartik tyagi"
+    ]
+  },
+  {
+    "value": "username",
+    "synonyms": [
+      "username"
+    ]
+  },
+  {
+    "value": "kartik sharma",
+    "synonyms": [
+      "kartik sharma"
+    ]
+  }
+]

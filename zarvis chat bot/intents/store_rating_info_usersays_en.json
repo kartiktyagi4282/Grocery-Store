@@ -1,0 +1,186 @@
+[
+  {
+    "id": "cefd42fe-ac94-4b22-a2e4-ad9a72a68ae8",
+    "data": [
+      {
+        "text": "rating of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "ed237363-0eb3-49a2-b0b2-bf93aba678cd",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "good",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is the ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756714
+  },
+  {
+    "id": "b33e08ed-0256-4d43-a579-06ab0063e894",
+    "data": [
+      {
+        "text": "what is the rating of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "0f2d9b49-ef65-435d-a1d9-a481d79c49e6",
+    "data": [
+      {
+        "text": "what is the rating ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "6b26cccb-3930-4d03-a8c2-ea3059dfc315",
+    "data": [
+      {
+        "text": "what is the rating of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "cb519e63-a08e-48d3-bb8a-1d853466e427",
+    "data": [
+      {
+        "text": "can you tell me the ratings of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "05077ade-b2ea-4650-bc13-82eb055cd1eb",
+    "data": [
+      {
+        "text": "what is the rating of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "b9964dbe-afdf-4a94-8eb6-55f7a8d2c2e0",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "good",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " the customers reviewed ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  },
+  {
+    "id": "1a5173c4-66af-46e0-a75a-6b4094290680",
+    "data": [
+      {
+        "text": "what is the rating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538756686
+  }
+]

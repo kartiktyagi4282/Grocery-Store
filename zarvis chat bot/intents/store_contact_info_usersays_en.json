@@ -1,0 +1,154 @@
+[
+  {
+    "id": "08a7f85e-0ce8-4722-84c6-9e369fa80dd2",
+    "data": [
+      {
+        "text": "what is the contact number of store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538757526
+  },
+  {
+    "id": "8130352c-59d7-4f41-a0b1-8d493352fbaf",
+    "data": [
+      {
+        "text": "how can i contact",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538757526
+  },
+  {
+    "id": "50f90954-f381-45ba-8f79-98a1b53df96f",
+    "data": [
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " contact number ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  },
+  {
+    "id": "c2911204-6180-4ae6-86ad-851bf6c628b4",
+    "data": [
+      {
+        "text": "how should i contact ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  },
+  {
+    "id": "440ea9ca-ae33-47c7-949a-e208cd5f0e14",
+    "data": [
+      {
+        "text": "contact of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  },
+  {
+    "id": "4cacf542-134c-48b6-9667-b839e312579c",
+    "data": [
+      {
+        "text": "did you know the contact number of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  },
+  {
+    "id": "383a3562-81e5-47cf-a365-ee8ceff5a3eb",
+    "data": [
+      {
+        "text": "what is the contact number of ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  },
+  {
+    "id": "5473fb95-ccdd-4ca7-8f7f-2858ad358d6f",
+    "data": [
+      {
+        "text": "how can i contact ",
+        "userDefined": false
+      },
+      {
+        "text": "store name",
+        "alias": "storename",
+        "meta": "@storename",
+        "userDefined": true
+      },
+      {
+        "text": " ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538685398
+  }
+]

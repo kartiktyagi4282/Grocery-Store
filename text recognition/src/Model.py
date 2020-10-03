@@ -1,12 +1,6 @@
 import sys
 import tensorflow as tf
 
-class DecoderType:
-	BestPath = 0
-	BeamSearch = 1
-	WordBeamSearch = 2
-
-
 class Model: 
 	batchSize = 50
 	imgSize = (128, 32)
@@ -48,19 +42,6 @@ class Model:
 
 		return pool
 
-
-	def setupRNN(self, rnnIn4d):
-		rnnIn3d = tf.squeeze(rnnIn4d, axis=[2])
-		numHidden = 256
-		cells = [tf.contrib.rnn.LSTMCell(num_units=numHidden, state_is_tuple=True) for _ in range(2)] # 2 layers
-
-		stacked = tf.contrib.rnn.MultiRNNCell(cells, state_is_tuple=True)
-		((fw, bw), _) = tf.nn.bidirectional_dynamic_rnn(cell_fw=stacked, cell_bw=stacked, inputs=rnnIn3d, dtype=rnnIn3d.dtype)									
-		concat = tf.expand_dims(tf.concat([fw, bw], 2), 2)
-		kernel = tf.Variable(tf.truncated_normal([1, 1, numHidden * 2, len(self.charList) + 1], stddev=0.1))
-		return tf.squeeze(tf.nn.atrous_conv2d(value=concat, filters=kernel, rate=1, padding='SAME'), axis=[2])
-		
-
 	def setupCTC(self, ctcIn3d):
 		ctcIn3dTBC = tf.transpose(ctcIn3d, [1, 0, 2])
 		self.gtTexts = tf.SparseTensor(tf.placeholder(tf.int64, shape=[None, 2]) , tf.placeholder(tf.int32, [None]), tf.placeholder(tf.int64, [2]))
@@ -79,7 +60,17 @@ class Model:
 			decoder = word_beam_search_module.word_beam_search(tf.nn.softmax(ctcIn3dTBC, dim=2), 50, 'Words', 0.0, corpus.encode('utf8'), chars.encode('utf8'), wordChars.encode('utf8'))
 
 		return (tf.reduce_mean(loss), decoder)
+	
+	def setupRNN(self, rnnIn4d):
+		rnnIn3d = tf.squeeze(rnnIn4d, axis=[2])
+		hidden_units = 256
+		cells = [tf.contrib.rnn.LSTMCell(num_units=hidden_units, state_is_tuple=True) for _ in range(2)] # 2 layers
 
+		stacked = tf.contrib.rnn.MultiRNNCell(cells, state_is_tuple=True)
+		((fw, bw), _) = tf.nn.bidirectional_dynamic_rnn(cell_fw=stacked, cell_bw=stacked, inputs=rnnIn3d, dtype=rnnIn3d.dtype)									
+		concat = tf.expand_dims(tf.concat([fw, bw], 2), 2)
+		kernel = tf.Variable(tf.truncated_normal([1, 1, hidden_units * 2, len(self.charList) + 1], stddev=0.1))
+		return tf.squeeze(tf.nn.atrous_conv2d(value=concat, filters=kernel, rate=1, padding='SAME'), axis=[2])
 
 	def setupTF(self):
 		print('Python: '+sys.version)
@@ -147,12 +138,15 @@ class Model:
 		self.batchesTrained += 1
 		return lossVal
 
-
-	def inferBatch(self, batch):
-		decoded = self.sess.run(self.decoder, { self.inputImgs : batch.imgs, self.seqLen : [Model.maxTextLen] * Model.batchSize } )
-		return self.decoderOutputToText(decoded)
-	
-
 	def save(self):
 		self.snapID += 1
 		self.saver.save(self.sess, '../model/snapshot', global_step=self.snapID)
+		
+	def inferBatch(self, batch):
+		decoded = self.sess.run(self.decoder, { self.inputImgs : batch.imgs, self.seqLen : [Model.maxTextLen] * Model.batchSize } )
+		return self.decoderOutputToText(decoded)
+		
+class DecoderType:
+	BestPath = 0
+	BeamSearch = 1
+	WordBeamSearch = 2

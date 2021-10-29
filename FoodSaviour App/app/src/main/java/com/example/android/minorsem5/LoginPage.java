@@ -26,6 +26,8 @@ public class LoginPage extends AppCompatActivity {
     private Toolbar mtoolbar;
     private ProgressDialog mLoginProgress;
 
+    // This method will get triggered when Login Page Instance gets created.
+    // It will set the toolbar and authenticates user via Firebase and then sets the android UI fields
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

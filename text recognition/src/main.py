@@ -80,7 +80,6 @@ def infer(model, fnImg):
 	recognized = model.inferBatch(batch)
 	print('Recognized:', '"' + recognized[0] + '"')
 	print('Recognized Array:', '"' + recognized + '"')
-	print('Recognized Array:', '"' + recognized + '"')
 
 
 def main():

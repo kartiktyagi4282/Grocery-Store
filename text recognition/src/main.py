@@ -79,6 +79,8 @@ def infer(model, fnImg):
 	batch = Batch(None, [img] * Model.batchSize)
 	recognized = model.inferBatch(batch)
 	print('Recognized:', '"' + recognized[0] + '"')
+	print('Recognized Array:', '"' + recognized + '"')
+	print('Recognized Array:', '"' + recognized + '"')
 
 
 def main():

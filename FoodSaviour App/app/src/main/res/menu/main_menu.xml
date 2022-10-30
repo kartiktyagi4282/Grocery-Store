@@ -11,6 +11,10 @@
     <item
         android:id="@+id/main_chatSupport_btn"
         android:title="Chat Support" />
+    
+    <item
+        android:id="@+id/main_chatSupport_btn"
+        android:title="Contact Us" />
 
 
 </menu>
